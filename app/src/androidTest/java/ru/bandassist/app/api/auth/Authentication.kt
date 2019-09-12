@@ -48,6 +48,7 @@ class Authentication {
     @Test
     fun login() {
         // Context of the app under test.
+
         val appContext = InstrumentationRegistry.getTargetContext()
 
         val apiSingle = ApiFactory.authApi.login(
